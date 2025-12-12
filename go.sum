@@ -751,8 +751,11 @@ github.com/apache/arrow/go/v10 v10.0.1/go.mod h1:YvhnlEePVnBS4+0z3fhPfUy7W1Ikj0I
 github.com/apache/arrow/go/v11 v11.0.0/go.mod h1:Eg5OsL5H+e299f7u5ssuXsuHQVEGC4xei5aX110hRiI=
 github.com/apache/arrow/go/v15 v15.0.2 h1:60IliRbiyTWCWjERBCkO1W4Qun9svcYoZrSLcyOsMLE=
 github.com/apache/arrow/go/v15 v15.0.2/go.mod h1:DGXsR3ajT524njufqf95822i+KTh+yea1jass9YXgjA=
+github.com/apache/iotdb-client-go/v2 v2.0.3-1 h1:sslfBa0/PrBQz7OTFQi6wuCXDpr7QwCjsT0RjVJoARU=
+github.com/apache/iotdb-client-go/v2 v2.0.3-1/go.mod h1:keIG+1Xfw8n2NukUbrEcYnnyN9VxP8OJLYvnHsg1k2s=
 github.com/apache/pulsar-client-go v0.17.0 h1:FLyfsW6FfGHZPjDapu6Y+Thp/9JQNGJS3dms+18bdpA=
 github.com/apache/pulsar-client-go v0.17.0/go.mod h1:sGZ3k5Knrf38skZh6YMoK8bibNH4aIq6wx7McQu8IAE=
+github.com/apache/thrift v0.15.0/go.mod h1:PHK3hniurgQaNMZYaCLEqXKsYK8upmhPbmdP2FXSqgU=
 github.com/apache/thrift v0.16.0/go.mod h1:PHK3hniurgQaNMZYaCLEqXKsYK8upmhPbmdP2FXSqgU=
 github.com/apache/thrift v0.22.0 h1:r7mTJdj51TMDe6RtcmNdQxgn9XcyfGDOzegMDRg47uc=
 github.com/apache/thrift v0.22.0/go.mod h1:1e7J/O1Ae6ZQMTYdy9xa3w9k+XHWPfRvdPyJeynQ+/g=

@@ -1,0 +1,41 @@
+# 示例配置：将数据写入 IoTDB 时间序列数据库
+input:
+  # 生成一些示例数据
+  generate:
+    count: 10
+    interval: 1s
+    mapping: |
+      root = {
+        "device": "sensor_" + counter(),
+        "timestamp": now(),
+        "temperature": random_int() % 100,
+        "humidity": random_int() % 100
+      }
+
+pipeline:
+  processors:
+    # 可以在这里添加数据处理逻辑
+    - mapping: |
+        # 将数据转换为所需的格式
+        root = this
+
+output:
+  iotdb:
+    # IoTDB 服务器地址
+    address: "localhost:6667"
+    # 用户名和密码
+    username: "root"
+    password: "root"
+    # 可选：数据库名称
+    database: "root.sensors"
+    # 连接超时时间
+    timeout: "30s"
+    # 批处理配置
+    batching:
+      count: 10
+      period: "5s"
+    # 最大并发数
+    max_in_flight: 10
+
+logger:
+  level: INFO

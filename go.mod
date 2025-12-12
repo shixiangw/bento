@@ -220,6 +220,7 @@ require (
 )
 
 require (
+	github.com/apache/iotdb-client-go/v2 v2.0.3-1
 	github.com/orcaman/concurrent-map/v2 v2.0.1 // indirect
 	github.com/s2-streamstore/optr v1.1.0 // indirect
 	github.com/s2-streamstore/s2-sdk-go v0.6.0
